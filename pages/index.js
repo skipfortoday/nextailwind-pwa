@@ -1,15 +1,12 @@
 import React from 'react';
-import Cta from '../components/footer/cta';
-import { Listfooter } from '../components/footer/listfooter';
-import Navbar from '../components/header/navbar';
-import Promo from '../components/landing/promo';
+import { Header } from '../components/header';
+import { List } from '../components/list';
 
 const index = () => {
 	return (
 		<>
-			<Navbar />
-			<Promo />
-			<Listfooter />
+			<Header />
+			<List />
 		</>
 	);
 };
